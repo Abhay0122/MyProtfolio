@@ -1,0 +1,636 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.2.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css">
+</head>
+
+<body>
+
+    <!-- menuOverlay -->
+    <div class="menuOverlay">
+        <ion-icon id="menucross" name="caret-back-outline"></ion-icon>
+        <ul>
+            <li class="menu-list">
+                <a href="#page_1">
+                    <span class="menuIcons menuIcon-1"><ion-icon name="home-outline"></ion-icon></span>
+                    <span class="menu-text">Home</span>
+                </a>
+            </li>
+            <li class="menu-list">
+                <a href="#page_2">
+                    <span class="menuIcons menuIcon-2"><ion-icon name="alert-circle-outline"></ion-icon></span>
+                    <span class="menu-text">About</span>
+                </a>
+            </li>
+            <li class="menu-list">
+                <a href="#page_3">
+                    <span class="menuIcons menuIcon-3"><ion-icon name="podium-outline"></ion-icon></span>
+                    <span class="menu-text">My skills</span>
+                </a>
+            </li>
+            <li class="menu-list">
+                <a href="#page_4">
+                    <span class="menuIcons menuIcon-4"><ion-icon name="newspaper-outline"></ion-icon></span>
+                    <span class="menu-text">My works</span>
+                </a>
+            </li>
+            <li class="menu-list">
+                <a href="#page_5">
+                    <span class="menuIcons menuIcon-5"><ion-icon name="cog-outline"></ion-icon></span>
+                    <span class="menu-text">My services</span>
+                </a>
+            </li>
+            <li class="menu-list">
+                <a href="#footer">
+                    <span class="menuIcons menuIcon-6"><ion-icon name="call-outline"></ion-icon></span>
+                    <span class="menu-text">Contact</span>
+                </a>
+            </li>
+            <li class="menu-list">
+                <a href="" target="_blank">
+                    <span class="menuIcons menuIcon-7"><ion-icon name="person-outline"></ion-icon></span>
+                    <span class="menu-text">Resume</span>
+                </a>
+            </li>
+        </ul>
+    </div>
+    <!--   -->
+
+    <!--loader  -->
+    <div class="loader">
+        <div class="loader_ctn_top">
+            <h3>Design Portfolio</h3>
+            <small>@2023</small>
+        </div>
+        <div class="loader_content_wrapper">
+            <div class="elem">
+                <h3 class="my_name">Abhay Parmar.</h3>
+            </div>
+            <div class="elem">
+                <h3 class="loader_text">Welcome To My Portfolio.</h3>
+            </div>
+            <div class="elem">
+                <h3 class="loader_text">UI/UX Designer And Developer.</h3>
+            </div>
+            <div class="elem">
+                <h3 class="my_name">Abhay Parmar.</h3>
+            </div>
+        </div>
+        <div class="loader_gif">
+            <img src="/images/icons8-loading-circle.gif" alt="">
+        </div>
+    </div>
+
+    <!-- navigations -->
+    <div class="navigation">
+        <!--  -->
+        <div class="menuToggle"></div>
+        <!--ul  -->
+        <ul>
+            <li class="list active">
+                <a href="#page_1" style="--clr: #f44336;">
+                    <span class="icon"><ion-icon name="home-outline"></ion-icon></span>
+                    <span class="text">Home</span>
+                </a>
+            </li>
+            <li class="list">
+                <a href="#page_2" style="--clr: #ffa117;">
+                    <span class="icon"><ion-icon name="alert-circle-outline"></ion-icon></span>
+                    <span class="text">About</span>
+                </a>
+            </li>
+            <li class="list">
+                <a href="#page_3" style="--clr: #0fc70f;">
+                    <span class="icon"><ion-icon name="podium-outline"></ion-icon></span>
+                    <span class="text">My skills</span>
+                </a>
+            </li>
+            <li class="list">
+                <a href="#page_4" style="--clr: #2196f3;">
+                    <span class="icon"><ion-icon name="newspaper-outline"></ion-icon></span>
+                    <span class="text">Projects</span>
+                </a>
+            </li>
+            <li class="list">
+                <a href="#page_5" style="--clr: rgb(0, 255, 217);">
+                    <span class="icon"><ion-icon name="cog-outline"></ion-icon></span>
+                    <span class="text">Services</span>
+                </a>
+            </li>
+            <li class="list">
+                <a href="#footer" style="--clr: rgb(171, 134, 0);">
+                    <span class="icon"><ion-icon name="call-outline"></ion-icon></span>
+                    <span class="text">contact</span>
+                </a>
+            </li>
+            <li class="list">
+                <a href="" style="--clr: #b145e9;">
+                    <span class="icon"><ion-icon name="person-outline"></ion-icon></span>
+                    <span class="text">Resume</span>
+                </a>
+            </li>
+        </ul>
+        <!--  -->
+    </div>
+    <!--  -->
+
+    <!-- header -->
+    <header>
+        <nav>
+            <!-- left -->
+            <div class="container navitem">
+                <span data-text="ABHAY PARMAR.">ABHAY PARMAR.</span>
+            </div>
+            <!-- right -->
+            <div class="nav-right">
+                <ion-icon id="menubtn" name="grid-outline"></ion-icon>
+            </div>
+            <!--  -->
+        </nav>
+    </header>
+    <!--  -->
+
+    <!-- main -->
+    <main id="main">
+
+        <!-- pages_wrapper -->
+        <div class="Pages_wrapper">
+            <!--page_1  -->
+            <section id="page_1" data-scroll data-scroll-speed="4">
+                <!-- left -->
+                <div class="pg_1-left">
+                    <div id="smline"></div>
+                    <h4 class="mini_heading leftitm">UI/UX Designer and Developer</h4>
+                    <h1 class="pg_1-left_itm leftitm">Hello, I am</h1>
+                    <h1 class="leftitm" id="profilename">Abhay Parmar</h1>
+                    <h1 class="pg_1-left_itm leftitm">A designer from India</h1>
+                    <div class="rowInBtn">
+                        <a class="pg_1-left_btn leftitm" href="">Get My Resume</a>
+                        <a class="pg_1-left_btn_2 leftitm" href="https://github.com/Abhay0122">Watch My Repo</a>
+                    </div>
+                </div>
+                <!-- right -->
+                <div class="pg_1-right">
+                    <div class="pg_1-right_container">
+                        <div class="right_container_icons">
+                            <div class="imgBx" style="--i:1">
+                                <img src="/images/img1.jpg" alt="">
+                            </div>
+                            <div class="imgBx" style="--i:2">
+                                <img src="/images/img2.jpg" alt="">
+                            </div>
+                            <div class="imgBx" style="--i:3">
+                                <img src="/images/img3.jpg" alt="">
+                            </div>
+                            <div class="imgBx" style="--i:4;">
+                                <img src="/images/img4.jpg" alt="">
+                            </div>
+                            <div class="imgBx" style="--i:5">
+                                <img src="/images/img5.jpg" alt="">
+                            </div>
+                            <div class="imgBx" style="--i:6">
+                                <img src="/images/img6.jpg" alt="">
+                            </div>
+                            <div class="imgBx" style="--i:7">
+                                <img src="/images/img7.jpg" alt="">
+                            </div>
+                            <div class="imgBx" style="--i:8">
+                                <img src="/images/img8.jpg" alt="">
+                            </div>
+                        </div>
+                        <!--  -->
+                        <div class="content">
+                            <div data-tilt data-tilt-scale="1.1" class="profile-img">
+                                <img src="/images/profile_img.jpg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--  -->
+            </section>
+            <!--  -->
+
+            <!-- page_2 -->
+            <section id="page_2" data-scroll data-scroll-speed="-2">
+                <!-- left -->
+                <div class="pg_2_left">
+                    <div data-tilt data-tilt-scale="1.1" data-tilt-glare data-tilt-max-glare="0.5" class="About_img">
+                    </div>
+                </div>
+                <!-- right -->
+                <div class="pg_2_right">
+                    <h1>About Me</h1>
+                    <p>My name is Abhay Parmar. I'm a 22 years old UIUX Designer and Developer living in Bhopal. I pride
+                        myself on my eagerness and ability to learn. I love solving coding problems and also work on
+                        HTML, CSS, JAVASCRIPT, and Node.js, Express.js, MongoDB. Due to my attention to detail, I am
+                        constantly absorbing ideas from everyday life. I am very passionate about my work and driven to
+                        satisfy my clients.</p>
+                    <div class="pg_2_right_btm">
+                        <div class="tab-titles">
+                            <p class="tab-links active-links" id="cert-link">Certificates</p>
+                            <p class="tab-links active-links" id="achiv-link">Achivements</p>
+                            <p class="tab-links active-links" id="educ-link">Education</p>
+                        </div>
+                        <div class="tab-contents active-tab" id="certificate">
+                            <ul>
+                                <a target="_blank" href="https://verify.letsupgrade.in/certificate/LUEHTMLDEC122156">
+                                    Letsupgrade:
+                                    <li>
+                                        HTML & CSS Essentials Bootcamplink
+                                        <i class="ri-external-link-fill"></i>
+                                    </li>
+                                </a>
+                                <a target="_blank" href="https://verify.letsupgrade.in/certificate/LUEJSJAN123212">
+                                    Letsupgrade:
+                                    <li>
+                                        JavaScript Programming Essentials Bootcamp
+                                        <i class="ri-external-link-fill"></i>
+                                    </li>
+                                </a>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="achivements">
+                            <ul>
+                                <li><span>I built 10+ projects in Html,Css & Javascript.</span></li>
+                                <li><span>I built 5+ responsive design.</span></li>
+                                <li><span>I built 5+ awwards website.</span></li>
+                                <li><span>I built a awwards website in 48 hours.</span></li>
+                                <li><span>I built 2+ projects in Backend.</span></li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="education">
+                            <ul>
+                                <li>2016-2017:<span>Secondary school from Maharishi vidya mandir</span></li>
+                                <li>2018-2019:<span>Higher Secondary school from Maharishi vidya mandir</span></li>
+                                <li>2019-2022:<span>Babul Lal Guar PG College Bhel</span></li>
+                                <li>2022-2023:<span>The sheryians coding school</span></li>
+                                <li></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!--  -->
+
+            <!-- page_3 -->
+            <section id="page_3" data-scroll data-scroll-speed="1">
+                <div class="pg_3_heading">
+                    <h1>My skills<span>.</span></h1>
+                    <small>skills, interests, passion and hobbies</small>
+                </div>
+                <div class="pg_3_mid">
+                    <h1>development</h1>
+                    <div class="img_container" id="pg_3_img_div">
+                        <img class="img_1" src="/images/html.png" alt="error">
+                        <img class="img_2" src="/images/css.png" alt="error">
+                        <img class="img_3" src="/images/bootstrap.png" alt="error">
+                        <img class="img_3" src="/images/js.png" alt="error">
+                        <img class="img_4" src="/images/gsap.png" alt="error">
+                        <img class="img_5" src="/images/node.png" alt="error">
+                        <img class="img_6" src="/images/mongodb.png" alt="error">
+                        <img class="img_7" src="/images/github.png" alt="error">
+                        <img class="img_8" src="/images/mern.png" alt="error">
+                    </div>
+                </div>
+                <div class="pg_3_bottom">
+                    <h1>designing</h1>
+                    <div class="img_container">
+                        <img class="img_1" src="/images/xd.png" alt="">
+                        <img class="img_2" src="/images/figma.png" alt="">
+                        <img class="img_3" src="/images/ps.png" alt="">
+                        <img class="img_3" src="/images/ai.png" alt="">
+                    </div>
+                </div>
+            </section>
+            <!--  -->
+
+            <!-- page_4 -->
+            <section id="page_4" data-scroll data--scroll-speed="-2">
+                <!--  -->
+                <div class="pg_4_heading">
+                    <h1>My works<span>.</span></h1>
+                    <small>these are few of my recent works.</small>
+                </div>
+                <!--  -->
+                <div class="page_4_cards_container">
+                    <!-- card_1 -->
+                    <div class="card" id="card_1">
+                        <img src="/images/cardImg_1.png" alt="">
+                        <div class="card_content_wrapper">
+                            <h1>AnimeFreak website</h1>
+                            <p>This is an Anime website and that's created by me with using html,css & Javascript & it
+                                is about anime series like recent anime, popular anime and all.</p>
+                            <a href="https://animefreakkkk.netlify.app/" target="_blank">Visit my website</a>
+                        </div>
+                    </div>
+                    <!-- card_2 -->
+                    <div class="card">
+                        <img src="/images/cardImg_2.png" alt="">
+                        <div class="card_content_wrapper">
+                            <h1>Bhopalimeal Website</h1>
+                            <p>This is a meal online shop website and that's created by me with using
+                                html,css,Javascript & gsap & it is related to ordering and delivering a food.</p>
+                            <a href="https://bhopalimeal.netlify.app/" target="_blank">Visit my website</a>
+                        </div>
+                    </div>
+                    <!-- card_3 -->
+                    <div class="card">
+                        <img src="/images/cardimg_3.png" alt="">
+                        <div class="card_content_wrapper">
+                            <h1>MassBuilder Website</h1>
+                            <p>This is about Gym website and that's created by me with using html,css and Javascript and
+                                it is related to gym equipments, gym joining, fitness etc..</p>
+                            <a href="https://massbuilder.netlify.app/" target="_blank">Visit my website</a>
+                        </div>
+                    </div>
+                    <!-- card_4 -->
+                    <div class="card">
+                        <img src="/images/cardimg_5.png" alt="">
+                        <div class="card_content_wrapper">
+                            <h1>Logoipsum Webiste</h1>
+                            <p>This is a Blog website and that's created by me with using ejs, css, nodejs, express.js,
+                                JavaScript, mongoDB, passport & nodemailer and it is includes signin, signup, publish
+                                Blog etc...</p>
+                            <a href="https://github.com/Abhay0122/Logoipsum-website-nodejs-DB-" target="_blank">Visit my
+                                repo</a>
+                        </div>
+                    </div>
+                    <!-- card_5 -->
+                    <div class="card">
+                        <img src="/images/cardimg_4.png" alt="">
+                        <div class="card_content_wrapper">
+                            <h1>Meduim Webiste</h1>
+                            <p>This is a clone of Medium website and that's created by me with using ejs, css, nodejs,
+                                express.js, JavaScript, mongoDB, passport & nodemailer and it is includes signin,
+                                signup, publish Blog etc...</p>
+                            <a href="https://github.com/Abhay0122/Medium_clone-nodejs-DB-" target="_blank">Visit my
+                                repo</a>
+                        </div>
+                    </div>
+                    <!-- card_6 -->
+                    <div class="card">
+                        <img src="/images/cardimg_6.png" alt="">
+                        <div class="card_content_wrapper">
+                            <h1>Gallery Application</h1>
+                            <p>This is a gallery node Application and that's created by me with using ejs, bootstrap,
+                                css, nodejs, express.js, JavaScript, mongoDB and it is includes add images, delete
+                                images, update images. It's all about all crud operations of nodejs</p>
+                            <a href="https://github.com/Abhay0122/nodejs_mongoDB_gallery_prjct_2" target="_blank">Visit
+                                my repo</a>
+                        </div>
+                    </div>
+                    <!-- card_7 -->
+                    <div class="card" id="card_1">
+                        <img src="/images/cardimg_7.png" alt="">
+                        <div class="card_content_wrapper">
+                            <h1>Eiktyrne Whisky clone website</h1>
+                            <p>This is a clone of Eiktyrne Whisky and that's created by me with using html, css,
+                                JavaScript, gsap and it is related to Whisky and contain information about Whiskies
+                                etc...</p>
+                            <a href="https://eiktyrne-whisky.netlify.app/" target="_blank">Visit my website</a>
+                        </div>
+                    </div>
+                    <!-- card_8 -->
+                    <div class="card" id="card_1">
+                        <img src="/images/cardimg_08.png" alt="">
+                        <div class="card_content_wrapper">
+                            <h1>Lagunitas clone website</h1>
+                            <p>This is a clone of Lagunitas and that's created by me with using html, css, JavaScript,
+                                gsap and it is related to diffrent types of drinks etc...</p>
+                            <a href="https://lagunitas-clone.netlify.app/" target="_blank">Visit my website</a>
+                        </div>
+                    </div>
+                    <!-- card_9 -->
+                    <div class="card" id="card_1">
+                        <img src="/images/cardimg_9.png" alt="">
+                        <div class="card_content_wrapper">
+                            <h1>This is Digital clone website</h1>
+                            <p>
+                                This is a clone of This is Digital and that's created by me with using html, css,
+                                JavaScript, gsap, locomotive and it is related to Digital Strategy, Content
+                                Strategy,Affiliate Marketing, Programmatic Display, Marketplaces...
+                            </p>
+                            <a href="https://this-is-digital.netlify.app/" target="_blank">Visit my website</a>
+                        </div>
+                    </div>
+                    <!-- card_10 -->
+                    <div class="card" id="card_1">
+                        <img src="/images/cardimg_10.png" alt="">
+                        <div class="card_content_wrapper">
+                            <h1>Zorro design clone website</h1>
+                            <p>
+                                This is a clone of Zorro design and that's created by me with using html, css,
+                                JavaScript and it is related to development, design, SEo, graphic design, E-commerce..
+                            </p>
+                            <a href="https://zorro-design.netlify.app/" target="_blank">Visit my website</a>
+                        </div>
+                    </div>
+                    <!-- card_11 -->
+                    <div class="card" id="card_1">
+                        <img src="/images/cardimg_11.png" alt="">
+                        <div class="card_content_wrapper">
+                            <h1>Elektra Virtual Museum clone website</h1>
+                            <p>
+                                This is a clone of Elektra Virtual Museum and that's created by me with using html, css,
+                                JavaScript and it is related to 3rd design, artists etc..
+                            </p>
+                            <a href="https://elektravirtualmesume.netlify.app/" target="_blank">Visit my website</a>
+                        </div>
+                    </div>
+                    <!-- card_12 -->
+                    <div class="card">
+                        <img src="/images/cardimg_12.png" alt="">
+                        <div class="card_content_wrapper">
+                            <h1>ToDoList Application</h1>
+                            <p>
+                                This is a ToDoList node Application and that's created by me with using ejs, bootstrap,
+                                css, nodejs, express.js, JavaScript, mongoDB and it is includes add tasks, delete
+                                tasks, update tasks. It's all about all crud operations of nodejs</p>
+                            <a href="https://github.com/Abhay0122/ToDoList-project-NodeJs-MongoDB-"
+                                target="_blank">Visit my repo</a>
+                        </div>
+                    </div>
+                    <!-- card_13 -->
+                    <div class="card">
+                        <img src="/images/cardimg_13.png" alt="">
+                        <div class="card_content_wrapper">
+                            <h1>User registration Application</h1>
+                            <p>
+                                This is a User registration node Application and that's created by me with using ejs,
+                                bootstrap,
+                                css, nodejs, express.js, JavaScript, mongoDB and it is includes login user, signup user,
+                                update users details. It's all about all crud operations of nodejs.
+                            </p>
+                            <a href="https://github.com/Abhay0122/user_resgistration_nodejs_mongoDB"
+                                target="_blank">Visit my repo</a>
+                        </div>
+                    </div>
+                    <!-- card_14 -->
+                    <div class="card">
+                        <img src="/images/cardimg_14.png" alt="">
+                        <div class="card_content_wrapper">
+                            <h1>Vs code Application</h1>
+                            <p>
+                                This is a Vs code node Application and that's created by me with using ejs,css, nodejs,
+                                express.js, JavaScript and it is includes add lists, delete lists, update lists. It's
+                                all about all crud operations of nodejs.
+                            </p>
+                            <a href="https://github.com/Abhay0122/Nodejs_vscode" target="_blank">Visit my repo</a>
+                        </div>
+                    </div>
+                    <!-- card_15 -->
+                    <div class="card">
+                        <img src="/images/cardimg_14.png" alt="">
+                        <div class="card_content_wrapper">
+                            <h1>Vs code Application</h1>
+                            <p>
+                                This is a Vs code node Application and that's created by me with using ejs,css, nodejs,
+                                express.js, JavaScript and it is includes add lists, delete lists, update lists. It's
+                                all about all crud operations of nodejs.
+                            </p>
+                            <a href="https://github.com/Abhay0122/Nodejs_vscode" target="_blank">Visit my repo</a>
+                        </div>
+                    </div>
+                </div>
+                <!--  -->
+            </section>
+            <!--  -->
+
+            <!-- page_5 -->
+            <section id="page_5" data-scroll data--scroll-speed="-1">
+                <!--  -->
+                <div class="page_5_heading">
+                    <h1 id="page_5_txt">My services<span class="Dot">.</span></h1>
+                </div>
+                <!--  -->
+                <div class="page_5_bottom_content_wrapper">
+                    <div class="page_5_lft_div box">
+                        <div class="innerBox">
+                            <img src="/images/tag.gif" alt="">
+                            <h2>Web Design</h2>
+                            <p>
+                                Hello guys, i am Abhay. I have a good experience in Web design. I have created lots
+                                ofweb design including user experience design, interface design, search engine
+                                optimization (SEO).
+                            </p>
+                            <a href="https://github.com/Abhay0122" target="_blank">Learn more</a>
+                        </div>
+                    </div>
+                    <div class="page_5_mid_div box">
+                        <div class="innerBox">
+                            <img id="mid_box_img" src="/images/uiux.gif" alt="">
+                            <h2>UI/UX Design</h2>
+                            <p>
+                                I Worked on many UI design. I always consider user while creating any design so,that
+                                user experience of my design is good. I'm good at responsive designs as well.
+                            </p>
+                            <a href="https://github.com/Abhay0122" target="_blank">Learn more</a>
+                        </div>
+                    </div>
+                    <div class="page_5_right_div box">
+                        <div class="innerBox">
+                            <img src="/images/backend.gif" alt="">
+                            <h2>Backend Development</h2>
+                            <p>
+                                I am also good at backend development.As a Back-end developer, i ensure the website
+                                performs correctly, focusing on databases,back-end logic, application programming
+                                interface (APIs), architecture, and servers.
+                            </p>
+                            <a href="https://github.com/Abhay0122" target="_blank">Learn more</a>
+                        </div>
+                    </div>
+                </div>
+                <!--  -->
+            </section>
+
+            <!-- page_6 -->
+            <footer id="footer" data-scroll>
+                <!--  -->
+                <div class="footer_heading">
+                    <h1>Contact me<span class="Dot">.</span></h1>
+                </div>
+                <!--  -->
+                <div class="footer_bottom">
+                    <div class="footer_left">
+                        <div class="line line1">
+                            <a href="mailto: developerabhay22@gmail.com" target="_blank">
+                                <i class="ri-send-plane-fill"></i>
+                                <span>developerabhay22@gmail.com</span>
+                            </a>
+                        </div>
+                        <div class="line line2">
+                            <i class="ri-phone-line"></i>
+                            <span>+91 9827453931</span>
+                        </div>
+                        <div class="line line3">
+                            <a id="fb" href="https://www.facebook.com/abhay.parmar.54772?mibextid=ZbWKwL"
+                                target="_blank"><i class="ri-facebook-circle-fill"></i></a>
+                            <a id="insta" href="https://www.instagram.com/harhar____mahadev/" target="_blank"><i
+                                    class="ri-instagram-line"></i></a>
+                            <a id="in" href="https://www.linkedin.com/in/abhay-parmar-015a17258/" target="_blank"><i
+                                    class="ri-linkedin-box-fill"></i></a>
+                            <a id="github" href="https://github.com/Abhay0122" target="_blank"><i
+                                    class="ri-github-fill"></i></a>
+                            <a id="twitter" href="https://twitter.com/ABHAY19777" target="_blank"><i
+                                    class="ri-twitter-line"></i></a>
+                        </div>
+                        <div class="line line4">
+                            <a href="" target="_blank">Download Resume</a>
+                        </div>
+                    </div>
+                    <!--  -->
+                    <div class="footer_right">
+                        <ul>
+                            <li id="li-1">Home</li>
+                            <li id="li-2">About</li>
+                            <li id="li-3">My skills</li>
+                            <li id="li-4">My works</li>
+                            <li id="li-5">services</li>
+                        </ul>
+                    </div>
+                    <!--  -->
+                </div>
+                <!--  -->
+                <div class="End_txt">
+                    <small>Made by Abhay parmar</small>
+                </div>
+            </footer>
+            <!--  -->
+        </div>
+        <!--  -->
+
+    </main>
+    <!--  -->
+
+
+
+    <!-- Locomotive -->
+    <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.js"></script>
+    <!-- gsap -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"
+        integrity="sha512-IQLehpLoVS4fNzl7IfH8Iowfm5+RiMGtHykgZJl9AWMgqx0AmJ6cRWcB+GaGVtIsnC4voMfm8f2vwtY+6oPjpQ=="
+        crossorigin="anonymous"></script>
+    <!-- scrolltrigger -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/ScrollTrigger.min.js"
+        integrity="sha512-tHvUcUQYi35zApvAa5TNR3fNhBQkVtkmWKfacnpxmix4/VTGz1lGjIVyLMp7gLgAvg+aKJjnVKokXJNS5GZ+/g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!--  -->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <!--  -->
+    <script src="vanilla-tilt.min.js"></script>
+    <!--Js -->
+    <script src="menuScript.js"></script>
+    <!--  -->
+    <script src="script.js"></script>
+</body>
+
+</html>
