@@ -11,6 +11,26 @@ body {
     background: black;
 }
 
+@font-face {
+    font-family: "Lobster";
+    src: url(/fonts/Lobster-Regular.ttf);
+}
+
+@font-face {
+    font-family: "gilroy";
+    src: url(/fonts/Gilroy-Regular.ttf);
+}
+
+@font-face {
+    font-family: "monument";
+    src: url(/fonts/MonumentExtended-Regular.otf);
+}
+
+@font-face {
+    font-family: "Sassy Frass";
+    src: url(/fonts/SassyFrass-Regular.ttf);
+}
+
 :root {
     --bg: #2f323f;
 }
@@ -444,7 +464,7 @@ button {
     cursor: pointer;
 }
 
-#menubtn{
+#menubtn {
     font-size: 2vmax;
     color: white;
     cursor: pointer;
@@ -453,7 +473,7 @@ button {
 
 /* menuOverlay */
 
-.menuOverlay{
+.menuOverlay {
     min-height: 100vh;
     width: 100vw;
     position: fixed;
@@ -465,6 +485,7 @@ button {
     transition: 0.7s;
     transform: translateX(-100%);
 }
+
 @supports (-webkit-backdrop-filter: none) or (backdrop-filter: none) {
     .menuOverlay {
         -webkit-backdrop-filter: blur(10px);
@@ -473,22 +494,22 @@ button {
     }
 }
 
-.menuOverlay ul{
+.menuOverlay ul {
     list-style-type: none;
     padding: 1vw;
 }
 
-.menuOverlay ul .menu-list{
+.menuOverlay ul .menu-list {
     margin: 2vmax 0;
 }
 
-.menuOverlay ul .menu-list a{
+.menuOverlay ul .menu-list a {
     text-decoration: none;
     display: flex;
     align-items: center;
 }
 
-.menuIcons{
+.menuIcons {
     font-size: 1.8vmax;
     color: black;
     padding: 1vh 1vw;
@@ -497,32 +518,39 @@ button {
     margin-right: 1.5vmax;
 }
 
-.menu-text{
+.menu-text {
     font-size: 1.1vmax;
     font-family: "gilroy";
     color: white;
     font-weight: 100;
 }
 
-.menuIcon-1{
+.menuIcon-1 {
     background-color: #f44336;
 }
-.menuIcon-2{
+
+.menuIcon-2 {
     background-color: #ffa117;
 }
-.menuIcon-3{
-    background-color: #0fc70f;;
+
+.menuIcon-3 {
+    background-color: #0fc70f;
+    ;
 }
-.menuIcon-4{
+
+.menuIcon-4 {
     background-color: #2196f3;
 }
-.menuIcon-5{
+
+.menuIcon-5 {
     background-color: rgb(0, 255, 217);
 }
-.menuIcon-6{
+
+.menuIcon-6 {
     background-color: rgb(171, 134, 0);
 }
-.menuIcon-7{
+
+.menuIcon-7 {
     background-color: #b145e9;
 }
 
