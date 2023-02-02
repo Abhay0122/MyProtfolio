@@ -217,6 +217,244 @@
         font-size: 1.6vmax;
     }
 
+    .tab-contents ul a i {
+        font-size: 2.5vmax;
+    }
 
+    /* page_3 */
+
+    #page_3 {
+        min-height: fit-content;
+        flex-direction: column;
+        justify-content: space-between;
+        position: relative;
+        padding: 15vw 10vw;
+    }
+
+    /* pg_3_heading */
+
+    .pg_3_heading {
+        margin-bottom: 3vmax;
+    }
+
+    .pg_3_heading h1 {
+        font-size: 4vmax;
+    }
+
+    .pg_3_heading h1 span {
+        font-size: 5vmax;
+    }
+
+    .pg_3_heading small {
+        font-size: 1.8vmax;
+    }
+
+    /* pg_3_mid */
+
+    .pg_3_mid {
+        height: 50vmax;
+        width: 82vw;
+        padding: 0;
+        margin-bottom: 5vmax;
+    }
+
+    .pg_3_mid h1 {
+        top: 21%;
+        left: -4vmax;
+        font-size: 4vmax;
+    }
+
+    .pg_3_mid .img_container {
+        height: inherit;
+        flex-wrap: wrap;
+    }
+
+    .img_container img {
+        margin-right: 0.5vmax;
+    }
+
+    .pg_3_bottom {
+        height: 20vmax;
+        width: 82vw;
+        padding: 0;
+    }
+
+    .pg_3_bottom h1 {
+        top: 13%;
+        right: -3vmax;
+        font-size: 4vmax;
+    }
+
+    .pg_3_bottom .img_container {
+        height: inherit;
+        flex-wrap: wrap;
+    }
+
+    /* page_4 */
+
+    #page_4 {
+        min-height: 100vh;
+        padding: 5vw 10vw;
+    }
+
+    /* pg_4_heading */
+
+    .pg_4_heading h1 {
+        font-size: 4vmax;
+    }
+
+    .pg_4_heading h1 span {
+        font-size: 5vmax;
+    }
+
+    .pg_4_heading small {
+        font-size: 1.6vmax;
+    }
+
+    .card {
+        width: 45vh;
+        height: 53vh;
+    }
+
+    .card_content_wrapper h1 {
+        font-size: 3.3vmax;
+        white-space: wrap;
+        margin-bottom: 2vmax;
+    }
+
+    .card_content_wrapper p {
+        font-size: 1.8vmax;
+        margin-bottom: 2vmax;
+        width: 70%;
+    }
+
+    .card_content_wrapper a {
+        padding: 1vmax 2vmax;
+        font-size: 1.8vmax;
+    }
+
+    /* page_5 */
+
+    #page_5 {
+        min-height: fit-content;
+        width: 100vw;
+        position: relative;
+        padding: 1vw 10vw;
+    }
+
+    /* page_5_heading */
+
+    .page_5_heading h1 {
+        font-size: 3.5vmax;
+    }
+
+    .Dot {
+        font-size: 5vmax;
+    }
+
+    .page_5_bottom_content_wrapper {
+        margin-top: 5.5vmax;
+        justify-content: center;
+    }
+
+    .page_5_bottom_content_wrapper .box {
+        height: 34vmax;
+        width: 41vmax;
+        margin: 1.8vmax 0;
+    }
+
+    .innerBox {
+        justify-content: space-evenly;
+        padding: 2vw;
+    }
+
+    .innerBox img {
+        height: 48px;
+        border-radius: 50%;
+    }
+
+    .innerBox h2 {
+        font-size: 2vmax;
+    }
+
+    .innerBox p {
+        font-size: 1.6vmax;
+    }
+
+    .innerBox a {
+        padding: 1.3vmax 2.3vmax;
+        font-size: 1.5vmax;
+    }
+
+    /* page_6 */
+
+    /* page_6 */
+
+    #footer {
+        min-height: 70vh;
+        width: 100vw;
+        padding: 9vw 10vw;
+    }
+
+    .footer_bottom {
+        flex-direction: column;
+    }
+
+    /* footer_heading */
+
+    .footer_heading h1 {
+        font-size: 3.5vmax;
+    }
+
+    .line {
+        margin: 1.6vmax 0;
+    }
+
+    .line a i {
+        font-size: 2.6vmax;
+    }
+
+    .line a span {
+        font-size: 1.8vmax;
+    }
+
+    /* footer_left */
+
+    .footer_left {
+        width: 100vw;
+    }
+
+    .line2 i {
+        font-size: 2.6vmax;
+    }
+
+    .line2 span {
+        font-size: 1.8vmax;
+    }
+
+    .line4 a {
+        padding: 1.3vmax 2.5vmax;
+        font-size: 1.6vmax;
+    }
+
+    .footer_right {
+        width: 100vw;
+    }
+
+    .footer_right ul li {
+        font-size: 2.5vmax;
+    }
+
+    /* .End_txt */
+
+    .End_txt small {
+        font-size: 5vmax;
+        letter-spacing: 1.5px;
+        margin-top: 2vmax;
+    }
+
+    .cursor{
+        display: none;
+    }
 
 }

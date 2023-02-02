@@ -11,6 +11,24 @@ body {
     background: black;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
+/* cursor */
+.cursor {
+    position: fixed;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: #fff;
+    transition: 0.1s;
+    transform: translate(-50%, -50%);
+    pointer-events: none;
+    z-index: 99999999;
+    mix-blend-mode: difference;
+}
+
 @font-face {
     font-family: "Lobster";
     src: url(/fonts/Lobster-Regular.ttf);
