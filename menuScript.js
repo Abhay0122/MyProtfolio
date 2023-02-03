@@ -22,7 +22,12 @@ document.addEventListener("mousemove", (e) => {
 });
 
 const p = document.querySelector('.paragraph');
-const p2 = document.querySelector('.paragraph-2');
+const p2 = document.querySelector('#profilename');
+const p3 = document.querySelector('.para-3');
+const p4 = document.querySelector('.para-4');
+const p5 = document.querySelector('.para-5');
+const endTxt = document.querySelector('#endTxt');
+
 
 p.addEventListener("mouseenter", () => {
     cursor.style.transform = "scale(6)"
@@ -31,12 +36,39 @@ p.addEventListener("mouseleave", () => {
     cursor.style.transform = "scale(1)"
 })
 // // -----
-// p2.addEventListener("mouseenter", () => {
-//     cursor.style.transform = "scale(6)"
-// })
-// p2.addEventListener("mouseleave", () => {
-//     cursor.style.transform = "scale(1)"
-// })
-
+p2.addEventListener("mouseenter", () => {
+    cursor.style.transform = "scale(6)"
+})
+p2.addEventListener("mouseleave", () => {
+    cursor.style.transform = "scale(1)"
+})
+// // -----
+p3.addEventListener("mouseenter", () => {
+    cursor.style.transform = "scale(6)"
+})
+p3.addEventListener("mouseleave", () => {
+    cursor.style.transform = "scale(1)"
+})
+// // -----
+p4.addEventListener("mouseenter", () => {
+    cursor.style.transform = "scale(6)"
+})
+p4.addEventListener("mouseleave", () => {
+    cursor.style.transform = "scale(1)"
+})
+// // -----
+p5.addEventListener("mouseenter", () => {
+    cursor.style.transform = "scale(6)"
+})
+p5.addEventListener("mouseleave", () => {
+    cursor.style.transform = "scale(1)"
+})
+// // -----
+endTxt.addEventListener("mouseenter", () => {
+    cursor.style.transform = "scale(6)"
+})
+endTxt.addEventListener("mouseleave", () => {
+    cursor.style.transform = "scale(1)"
+})
 
 
