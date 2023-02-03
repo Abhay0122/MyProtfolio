@@ -141,12 +141,12 @@
     }
 
     .content::after {
-        inset: 50px;
+        inset: 54px;
     }
 
     .profile-img {
-        height: 16vmax;
-        width: 16vmax;
+        height: 18vmax;
+        width: 18vmax;
     }
 
     /* /page_2 */
