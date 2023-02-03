@@ -122,26 +122,26 @@
     .pg_1-right {
         min-height: fit-content;
         width: 100vw;
-        padding: 8vw 6vw;
+        padding: 8vw 8vw !important;
     }
 
     .pg_1-right_container {
-        width: 38vmax;
-        height: 38vmax;
+        width: 37vmax;
+        height: 37vmax;
     }
 
     .pg_1-right_container .right_container_icons .imgBx {
         height: 45px;
         width: 45px;
-        transform-origin: 22.5vmax;
+        transform-origin: 22vmax;
     }
 
     .content::before {
-        inset: 40px;
+        inset: 38px;
     }
 
     .content::after {
-        inset: 58px;
+        inset: 50px;
     }
 
     .profile-img {

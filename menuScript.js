@@ -37,3 +37,6 @@ p.addEventListener("mouseleave", () => {
 // p2.addEventListener("mouseleave", () => {
 //     cursor.style.transform = "scale(1)"
 // })
+
+
+
