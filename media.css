@@ -122,18 +122,18 @@
     .pg_1-right {
         min-height: fit-content;
         width: 100vw;
-        padding: 8vw 5vw;
+        padding: 8vw 6vw;
     }
 
     .pg_1-right_container {
-        width: 40vmax;
-        height: 40vmax;
+        width: 38vmax;
+        height: 38vmax;
     }
 
     .pg_1-right_container .right_container_icons .imgBx {
         height: 45px;
         width: 45px;
-        transform-origin: 23vmax;
+        transform-origin: 22.5vmax;
     }
 
     .content::before {
