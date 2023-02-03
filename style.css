@@ -29,6 +29,8 @@ html {
     mix-blend-mode: difference;
 }
 
+/* font-face */
+
 @font-face {
     font-family: "Lobster";
     src: url(/fonts/Lobster-Regular.ttf);
@@ -49,6 +51,7 @@ html {
     src: url(/fonts/SassyFrass-Regular.ttf);
 }
 
+/* root */
 :root {
     --bg: #2f323f;
 }
@@ -1026,7 +1029,7 @@ button {
     .img_container {
         -webkit-backdrop-filter: blur(10px);
         backdrop-filter: blur(10px);
-        background-color: rgba(255, 255, 255, 0.121);
+        background-color: rgba(255, 255, 255, 0.381);
     }
 }
 

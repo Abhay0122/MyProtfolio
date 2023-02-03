@@ -1,6 +1,10 @@
 @media only screen and (max-width: 600px) {
 
     /* loader */
+    .loader{
+        padding: 10vw;
+    }
+
     .loader_ctn_top h3 {
         font-size: 2.5vmax;
     }
@@ -96,16 +100,17 @@
     }
 
     #profilename {
-        font-size: 2.8vmax;
+        font-size: 4.5vmax;
     }
 
     .rowInBtn {
-        margin-top: 7.5vmax;
+        margin-top: 7vmax;
     }
 
     .pg_1-left_btn {
         padding: 1.3vh 3vw;
         font-size: 1.5vmax;
+        margin-right: 1vmax;
     }
 
     .pg_1-left_btn_2 {
@@ -121,22 +126,27 @@
     }
 
     .pg_1-right_container {
-        width: 38vmax;
-        height: 38vmax;
+        width: 40vmax;
+        height: 40vmax;
     }
 
     .pg_1-right_container .right_container_icons .imgBx {
         height: 45px;
         width: 45px;
-        transform-origin: 22vmax;
+        transform-origin: 23vmax;
     }
 
     .content::before {
-        inset: 42px;
+        inset: 40px;
     }
 
     .content::after {
-        inset: 65px;
+        inset: 58px;
+    }
+
+    .profile-img {
+        height: 16vmax;
+        width: 16vmax;
     }
 
     /* /page_2 */
@@ -160,7 +170,7 @@
 
     /* .pg_2_right */
     .pg_2_right {
-        min-height: 60vh;
+        min-height: 72vh;
         width: 100vw;
         justify-content: flex-start;
         align-items: flex-start;
@@ -175,7 +185,7 @@
 
     .pg_2_right p {
         font-size: 1.7vmax !important;
-        width: 90%;
+        width: 97%;
         margin-bottom: 1.3vmax;
     }
 
@@ -199,22 +209,27 @@
         width: 100%;
     }
 
+    .tab-contents{
+        padding: 1vw;
+    }
+
     .tab-contents ul a {
         margin: 1vmax 0;
         font-size: 3vmax;
     }
 
     .tab-contents ul a li {
-        margin-top: 0.3vmax;
+        margin-top: 1vmax;
         font-size: 2vmax;
     }
 
     .tab-contents ul li {
-        font-size: 2vmax;
+        font-size: 2.5vmax;
     }
 
     .tab-contents ul li span {
         font-size: 1.6vmax;
+        margin: 1vmax 0;
     }
 
     .tab-contents ul a i {
@@ -259,7 +274,7 @@
     }
 
     .pg_3_mid h1 {
-        top: 21%;
+        top: 29%;
         left: -4vmax;
         font-size: 4vmax;
     }
@@ -360,7 +375,7 @@
     .page_5_bottom_content_wrapper .box {
         height: 34vmax;
         width: 41vmax;
-        margin: 1.8vmax 0;
+        margin: 2vmax 0;
     }
 
     .innerBox {
