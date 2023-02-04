@@ -133,7 +133,7 @@
     .pg_1-right_container .right_container_icons .imgBx {
         height: 45px;
         width: 45px;
-        transform-origin: 22.5vmax;
+        transform-origin: 21vmax;
     }
 
     .content::before {
