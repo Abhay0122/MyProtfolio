@@ -133,7 +133,7 @@
     .pg_1-right_container .right_container_icons .imgBx {
         height: 45px;
         width: 45px;
-        transform-origin: 22vmax;
+        transform-origin: 21.5vmax;
     }
 
     .content::before {
@@ -176,6 +176,8 @@
         align-items: flex-start;
         flex-direction: column;
         padding: 3vw 8vw;
+        overflow-x: hidden;
+        position: relative;
     }
 
     .pg_2_right h1 {
@@ -211,6 +213,7 @@
 
     .tab-contents {
         padding: 1vw;
+        margin-top: 2vmax;
     }
 
     .tab-contents ul a {
@@ -228,8 +231,9 @@
     }
 
     .tab-contents ul li span {
-        font-size: 1.6vmax;
-        margin: 1vmax 0;
+        font-size: 1.4vmax;
+        margin: 1.3vmax 0;
+        width: 80%;
     }
 
     .tab-contents ul a i {
